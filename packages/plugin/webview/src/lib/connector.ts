@@ -1,4 +1,4 @@
-import type { Message, Api, ApiMap, PluginApi } from '@remixproject/plugin-utils'
+import type { Message, Api, ApiMap, PluginApi } from '@remix-project/plugin-utils'
 import {
   ClientConnector,
   connectClient,
@@ -8,8 +8,8 @@ import {
   PluginOptions,
   checkOrigin,
   isPluginMessage
-} from '@remixproject/plugin'
-import { IRemixApi, Theme } from '@remixproject/plugin-api';
+} from '@remix-project/plugin'
+import { IRemixApi, Theme } from '@remix-project/plugin-api';
 import axios from 'axios'
 
 

@@ -1,5 +1,5 @@
 import { ITerminal } from './api'
-import { LibraryProfile } from '@remixproject/plugin-utils'
+import { LibraryProfile } from '@remix-project/plugin-utils'
 
 export const terminalProfile: LibraryProfile<ITerminal> = {
   name: 'terminal',

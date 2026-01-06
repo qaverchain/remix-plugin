@@ -1,9 +1,9 @@
-import type { ExternalProfile, Profile, Message, PluginOptions } from '@remixproject/plugin-utils'
+import type { ExternalProfile, Profile, Message, PluginOptions } from '@remix-project/plugin-utils'
 import { Plugin } from './abstract'
 
 /** List of available gateways for decentralised storage */
 export const defaultGateways = {
-  'ipfs://': (url, name) => `https://${name}.dyn.plugin.remixproject.org/ipfs/${url.replace('ipfs://', '')}`,
+  'ipfs://': (url, name) => `https://${name}.dyn.plugin.remix-project.org/ipfs/${url.replace('ipfs://', '')}`,
   'swarm://': (url, name) => `https://swarm-gateways.net/bzz-raw://${url.replace('swarm://', '')}`
 }
 

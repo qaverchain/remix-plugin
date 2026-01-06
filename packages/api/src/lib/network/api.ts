@@ -1,4 +1,4 @@
-import { StatusEvents } from '@remixproject/plugin-utils';
+import { StatusEvents } from '@remix-project/plugin-utils';
 import { NetworkProvider, Network, CustomNetwork } from './type';
 
 /** @deprecated: current version in Remix IDE. To improve to match standard JSON RPC methods */

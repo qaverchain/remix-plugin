@@ -1,6 +1,6 @@
 import { HighlightPosition, Annotation } from './type'
-import { StatusEvents } from '@remixproject/plugin-utils'
-import { HighLightOptions } from '@remixproject/plugin-api'
+import { StatusEvents } from '@remix-project/plugin-utils'
+import { HighLightOptions } from '@remix-project/plugin-api'
 
 export interface IEditor {
   events: StatusEvents

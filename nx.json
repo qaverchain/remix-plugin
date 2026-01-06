@@ -1,5 +1,5 @@
 {
-  "npmScope": "remixproject",
+  "npmScope": "remix-project",
   "affected": {
     "defaultBase": "master"
   },

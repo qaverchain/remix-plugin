@@ -1,6 +1,6 @@
-import { Plugin } from "@remixproject/engine";
-import { PluginClient } from "@remixproject/plugin";
-import { Profile } from "@remixproject/plugin-utils";
+import { Plugin } from "@remix-project/engine";
+import { PluginClient } from "@remix-project/plugin";
+import { Profile } from "@remix-project/plugin-utils";
 import { BrowserWindow } from "electron";
 import { createElectronClient } from "./electronPluginClient";
 

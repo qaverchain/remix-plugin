@@ -1,5 +1,5 @@
 import { IFilePanel as IFilePanel } from './api'
-import { LocationProfile, Profile } from '@remixproject/plugin-utils'
+import { LocationProfile, Profile } from '@remix-project/plugin-utils'
 
 export const filePanelProfile: Profile<IFilePanel> & LocationProfile = {
   name: "filePanel",

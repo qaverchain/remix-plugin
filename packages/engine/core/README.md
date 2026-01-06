@@ -4,14 +4,14 @@ This is the core library used to create a new plugin engine.
 
 | Name                                           | Latest Version       |
 | -----------------------------------------------| :------------------: |
-| [@remixproject/engine](.)  | [![badge](https://img.shields.io/npm/v/@remixproject/engine.svg?style=flat-square)](https://www.npmjs.com/package/@remixproject/engine) |
+| [@remix-project/engine](.)  | [![badge](https://img.shields.io/npm/v/@remix-project/engine.svg?style=flat-square)](https://www.npmjs.com/package/@remix-project/engine) |
 
 Use this library if you want to create an engine **for a new environment**.
 
 If you want to create an engine for an existing envrionment, use the specific library. For example : 
-- Engine on the web : [@remixproject/engine-web](../web)
-- Engine on node : [@remixproject/engine-node](../node)
-- Engine on vscode : [@remixproject/engine-vscode](../vscode)
+- Engine on the web : [@remix-project/engine-web](../web)
+- Engine on node : [@remix-project/engine-node](../node)
+- Engine on vscode : [@remix-project/engine-vscode](../vscode)
 
 ## Tutorial
 
@@ -31,13 +31,13 @@ If you want to create an engine for an existing envrionment, use the specific li
 
 ## Connector
 
-The plugin connector is the main component of `@remixproject/engine`, it defines how an external plugin can connect to the engine. Checkout the [documentation](./doc/connector).
+The plugin connector is the main component of `@remix-project/engine`, it defines how an external plugin can connect to the engine. Checkout the [documentation](./doc/connector).
 
 --------------
 
 ## Getting started
 ```
-npm install @remixproject/engine
+npm install @remix-project/engine
 ```
 
 The engine works a with two classes : 
@@ -45,7 +45,7 @@ The engine works a with two classes :
 - `Engine`: manage registration & communication 
 
 ```typescript
-import { PluginManager, Engine, Plugin } from '@remixproject/engine'
+import { PluginManager, Engine, Plugin } from '@remix-project/engine'
 
 const manager = new PluginManager()
 const engine = new Engine()
@@ -115,7 +115,7 @@ plugin.call('console', 'print', 'My message')
 
 ### Full code example
 ```typescript
-import { PluginManager, Engine, Plugin } from '@remixproject/engine'
+import { PluginManager, Engine, Plugin } from '@remix-project/engine'
 const profile = {
   name: 'console',
   methods: ['print']

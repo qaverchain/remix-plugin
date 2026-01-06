@@ -1,4 +1,4 @@
-import { PluginManager } from "@remixproject/engine"
+import { PluginManager } from "@remix-project/engine"
 import axios from 'axios'
 export class VscodeAppManager extends PluginManager {
     pluginsDirectory:string

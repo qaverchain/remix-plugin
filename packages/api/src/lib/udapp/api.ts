@@ -1,5 +1,5 @@
 import { RemixTx, RemixTxReceipt, RemixTxEvent, VMAccount, UdappSettings } from './type'
-import { StatusEvents } from '@remixproject/plugin-utils'
+import { StatusEvents } from '@remix-project/plugin-utils'
 export interface IUdapp {
   events: {
     newTransaction: (transaction: RemixTxEvent) => void

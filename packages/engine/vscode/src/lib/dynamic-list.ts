@@ -1,5 +1,5 @@
-import { Plugin } from '@remixproject/engine'
-import { PluginOptions } from '@remixproject/plugin-utils'
+import { Plugin } from '@remix-project/engine'
+import { PluginOptions } from '@remix-project/plugin-utils'
 import { window, Disposable, TreeDataProvider, commands, EventEmitter, TreeView, TreeItem } from 'vscode'
 
 type ID = string | number

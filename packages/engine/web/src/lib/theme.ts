@@ -1,6 +1,6 @@
-import { Plugin } from '@remixproject/engine'
-import { MethodApi } from '@remixproject/plugin-utils'
-import { ITheme, Theme, themeProfile } from '@remixproject/plugin-api'
+import { Plugin } from '@remix-project/engine'
+import { MethodApi } from '@remix-project/plugin-utils'
+import { ITheme, Theme, themeProfile } from '@remix-project/plugin-api'
 
 type DeepPartial<T> = {
   [P in keyof T]?: DeepPartial<T[P]>;

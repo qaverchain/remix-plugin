@@ -1,5 +1,5 @@
 import { CompilationResult, CompilationFileSources, lastCompilationResult, CondensedCompilationInput, SourcesInput } from './type'
-import { StatusEvents, Api } from '@remixproject/plugin-utils'
+import { StatusEvents, Api } from '@remix-project/plugin-utils'
 
 export interface ICompiler extends Api {
   events: {

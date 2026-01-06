@@ -1,5 +1,5 @@
-import { editorProfile, IEditor, Annotation, HighlightPosition } from '@remixproject/plugin-api';
-import { MethodApi } from '@remixproject/plugin-utils';
+import { editorProfile, IEditor, Annotation, HighlightPosition } from '@remix-project/plugin-api';
+import { MethodApi } from '@remix-project/plugin-utils';
 import { window, Range, TextEditorDecorationType, Position, languages, DiagnosticCollection, Diagnostic, Uri, DiagnosticSeverity, TextEditor, ThemeColor } from "vscode";
 import { CommandPlugin, CommandOptions } from "./command";
 import { absolutePath } from '../util/path'

@@ -3,7 +3,7 @@ import {
   Api,
   ApiMap,
   getMethodPath,
-} from '@remixproject/plugin-utils'
+} from '@remix-project/plugin-utils'
 import {
   PluginClient,
   ClientConnector,
@@ -11,8 +11,8 @@ import {
   applyApi,
   Client,
   isHandshake,
-} from '@remixproject/plugin'
-import { IRemixApi } from '@remixproject/plugin-api'
+} from '@remix-project/plugin'
+import { IRemixApi } from '@remix-project/plugin-api'
 
 export interface WS {
   send(data: string): void
