@@ -1,6 +1,6 @@
-import { contentImportProfile, IContentImport } from '@remixproject/plugin-api';
-import { ContentImport } from '@remixproject/plugin-api';
-import { MethodApi } from '@remixproject/plugin-utils';
+import { contentImportProfile, IContentImport } from '@remix-project/plugin-api';
+import { ContentImport } from '@remix-project/plugin-api';
+import { MethodApi } from '@remix-project/plugin-utils';
 import { CommandPlugin } from './command';
 import { RemixURLResolver } from '@remix-project/remix-url-resolver';
 

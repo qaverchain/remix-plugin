@@ -1,6 +1,6 @@
-import { Engine, PluginManager } from '@remixproject/engine'
+import { Engine, PluginManager } from '@remix-project/engine'
 import { HostPlugin } from '../src'
-import { pluginManagerProfile } from '@remixproject/plugin-api'
+import { pluginManagerProfile } from '@remix-project/plugin-api'
 import { IframePlugin } from '../src'
 
 class MockHost extends HostPlugin {

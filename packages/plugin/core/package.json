@@ -1,5 +1,5 @@
 {
-  "name": "@remixproject/plugin",
+  "name": "@remix-project/plugin",
   "version": "0.3.44",
   "dependencies": {
     "events": "3.2.0"

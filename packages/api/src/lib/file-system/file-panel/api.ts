@@ -1,4 +1,4 @@
-import { StatusEvents } from '@remixproject/plugin-utils'
+import { StatusEvents } from '@remix-project/plugin-utils'
 import { customAction } from './type';
 export interface IFilePanel {
     events: {

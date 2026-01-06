@@ -1,5 +1,5 @@
-import { filSystemProfile, IFileSystem } from '@remixproject/plugin-api'
-import { MethodApi } from '@remixproject/plugin-utils'
+import { filSystemProfile, IFileSystem } from '@remix-project/plugin-api'
+import { MethodApi } from '@remix-project/plugin-utils'
 import { window, workspace, Uri, commands, ViewColumn } from 'vscode'
 import { CommandPlugin } from './command'
 import { absolutePath, relativePath } from '../util/path'

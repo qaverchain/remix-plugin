@@ -1,5 +1,5 @@
 import { IFileSystem } from './api'
-import { LocationProfile, Profile } from '@remixproject/plugin-utils'
+import { LocationProfile, Profile } from '@remix-project/plugin-utils'
 
 export const filSystemProfile: Profile<IFileSystem> & LocationProfile = {
   name: "fileManager",

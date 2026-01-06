@@ -1,5 +1,5 @@
 import { handleConnectionError, PluginClient } from '../src'
-import { callEvent, listenEvent } from '@remixproject/plugin-utils'
+import { callEvent, listenEvent } from '@remix-project/plugin-utils'
 
 // Handle Error
 test('Handle Connection Error', () => {

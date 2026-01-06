@@ -14,9 +14,9 @@ More below about the engine.
 The base plugin is called by the engine in Electron, you're not calling it from Remix. Only the ElectronBasePluginClient linked to a specific window is the one you are calling from Remix. So internal methods of the base plugin are used for example by the menu or you can call when something happens in electron, ie before the app is closed. 
 
 ```
-import { ElectronBasePlugin, ElectronBasePluginClient } from "@remixproject/plugin-electron"
+import { ElectronBasePlugin, ElectronBasePluginClient } from "@remix-project/plugin-electron"
 
-import { Profile } from "@remixproject/plugin-utils";
+import { Profile } from "@remix-project/plugin-utils";
 
 const profile: Profile = {
     displayName: 'exampleplugin',
@@ -75,7 +75,7 @@ class ExamplePluginClient extends ElectronBasePluginClient {
 On the side of Remix you define a plugin too. This is all you need to do
 
 ```
-import { ElectronPlugin } from '@remixproject/engine-electron';
+import { ElectronPlugin } from '@remix-project/engine-electron';
 
 export class examplePlugin extends ElectronPlugin {
   constructor() {
@@ -119,7 +119,7 @@ Preload script:
 This script is included in the electron app and is loaded before the application. It is an isolated script that has access to the renderer process of electron and acts as the bridge between the application and the renderer.
 
 ```
-import { Message } from '@remixproject/plugin-utils'
+import { Message } from '@remix-project/plugin-utils'
 import { contextBridge, ipcRenderer } from 'electron'
 
 /* preload script needs statically defined API for each plugin */

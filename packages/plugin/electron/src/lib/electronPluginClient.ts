@@ -1,6 +1,6 @@
-import { ClientConnector, connectClient, applyApi, Client, PluginClient } from '@remixproject/plugin'
-import type { Message, Api, ApiMap, Profile } from '@remixproject/plugin-utils'
-import { IRemixApi } from '@remixproject/plugin-api'
+import { ClientConnector, connectClient, applyApi, Client, PluginClient } from '@remix-project/plugin'
+import type { Message, Api, ApiMap, Profile } from '@remix-project/plugin-utils'
+import { IRemixApi } from '@remix-project/plugin-api'
 import { ipcMain } from 'electron'
 
 export class ElectronPluginClientConnector implements ClientConnector {

@@ -1,6 +1,6 @@
-import { Plugin } from '@remixproject/engine'
-import { API, PluginOptions } from '@remixproject/plugin-utils'
-import { ITheme, Theme, ThemeUrls, themeProfile } from '@remixproject/plugin-api'
+import { Plugin } from '@remix-project/engine'
+import { API, PluginOptions } from '@remix-project/plugin-utils'
+import { ITheme, Theme, ThemeUrls, themeProfile } from '@remix-project/plugin-api'
 import { window, ColorThemeKind, Disposable, ColorTheme } from 'vscode'
 
 export interface ThemeOptions extends PluginOptions {

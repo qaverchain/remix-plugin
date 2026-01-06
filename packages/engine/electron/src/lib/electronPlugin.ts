@@ -1,5 +1,5 @@
-import type { Profile, Message } from '@remixproject/plugin-utils';
-import { Plugin } from '@remixproject/engine';
+import type { Profile, Message } from '@remix-project/plugin-utils';
+import { Plugin } from '@remix-project/engine';
 import { EventEmitter } from 'events';
 
 export abstract class ElectronPlugin extends Plugin {
